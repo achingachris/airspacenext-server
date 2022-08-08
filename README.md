@@ -9,5 +9,5 @@ https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/
 
 Heroku
 git add .
-git commit -am "Changes to my-project noted"
+git commit -am "Changes to my-project"
 git push heroku HEAD:main
