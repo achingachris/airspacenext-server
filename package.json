@@ -1,0 +1,22 @@
+{
+  "name": "airspace-next",
+  "version": "1.0.0",
+  "description": "AirspaceNext is a MERN stack ECommerce Side Project. It is Driven By my love for aviation. If the project goes well, this will be used for only Aviation Related Products ONLY.",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
