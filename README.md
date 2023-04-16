@@ -4,3 +4,8 @@ AirspaceNext is a MERN stack ECommerce Side Project. It is Driven By my love for
 
 >This repo holds the Backend Of the Platform
 
+## Node.js Dependencies Used
+
+Express.js
+Nodemon
+Dotenv
