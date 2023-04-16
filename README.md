@@ -1,13 +1,6 @@
-heroku git:remote -a your-heroku-app-name
+# AirspaceNext: Backend
 
-DATABASE_URL: postgres://ytpspgxcwnglga:4fb7b2677c5875c5f77e909a187d59dbc7d6d9a86b3936bdd537a24a99c1cd43@ec2-44-197-128-108.compute-1.amazonaws.com:5432/d1gtvl4o8uv3ml
+AirspaceNext is a MERN stack ECommerce Side Project. It is Driven By my love for aviation. If the project goes well, this will be used for only Aviation Related Products ONLY. 
 
+>This repo holds the Backend Of the Platform
 
-https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/hosting-guides/heroku.html#_11-deploy
-
-
-
-Heroku
-git add .
-git commit -am "Changes to my-project"
-git push heroku HEAD:main
