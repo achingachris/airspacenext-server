@@ -1,8 +1,11 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import connectDB from './config/mongodb.js';
 import airplanemodels from './data/airplanemodels.js';
 
 dotenv.config();
+connectDB();   // connect to MongoDB 
+
 const app = express();
 
 // endpoint handlers
