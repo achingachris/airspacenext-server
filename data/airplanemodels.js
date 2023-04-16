@@ -1,4 +1,4 @@
-const products = [
+const airplanemodels = [
     {
         id: '1',
         name: 'Kenya Airways Boeing 787-8 Dreamliner',
@@ -31,4 +31,4 @@ const products = [
       },
 ]
 
-export default products
+export default airplanemodels

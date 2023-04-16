@@ -1,6 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import products from './data/products.js';
+import airplanemodels from './data/airplanemodels.js';
 
 dotenv.config();
 const app = express();
@@ -13,14 +13,14 @@ app.get('/', (req, res) => {
 });
 
 // get all products
-app.get('/products', (req, res) => {
-    res.json(products);
+app.get('/airplanemodels', (req, res) => {
+    res.json(airplanemodels);
 })
 
 // get single product
-app.get('/products/:id', (req, res) => {
-    const product = products.find((p) => p.id === req.params.id);
-    res.json(product);
+app.get('/airplanemodel/:id', (req, res) => {
+    const airplanemodel = airplanemodels.find((p) => p.id === req.params.id);
+    res.json(airplanemodel);
 })
 
 const PORT = process.env.PORT || 5000;
